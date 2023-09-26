@@ -122,6 +122,7 @@ h1 {
 #underlined-text{
     position: relative;
     display: inline-block;
+    white-space: nowrap;
 }
 #underlined-text::after{
     content: "";
@@ -243,12 +244,17 @@ aside div p:last-child {
 .flex-desktop div{
     position: relative;
 }
-.fas fa-tag{
+.etichetta{
+    color: gray;
+    font-size: 3em;
+    display: inline-block;
     position: absolute;
     right: 0;
     top: 0;
 }
-
+#figa{
+    color: red;
+}
 /* FOOTER */
 footer {
     background: rgb(53,53,53);
